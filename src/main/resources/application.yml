@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: exchangeRateProject
+currency:
+  base: USD
+  compare: EUR
+  open-exchange:
+    app-id: YOUR_APP_ID
+    url: https://openexchangerates.org/api
+  giphy:
+    api-key: YOUR_GIPHY_API_KEY
+    url: https://api.giphy.com/v1/gifs/search
+    rich-tag: rich
+    broke-tag: broke
+server:
+  port: 8081
